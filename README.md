@@ -23,7 +23,7 @@ This script is designed to migrate data from a source MySQL database to a destin
 
 ## Configuration
 
-The script is configured via the `$config` array within the `migration_db_cpanel_plesk.php` file. Below is an overview of the configuration options:
+The script is configured via the `$config` array within the `migration_db.php` file. Below is an overview of the configuration options:
 
 ```php
 $config = [
@@ -69,10 +69,10 @@ $config = [
 
 ## Usage
 
-1.  **Configure the script**: Modify the `$config` array in `migration_db_cpanel_plesk.php` with your database details and table migration settings.
+1.  **Configure the script**: Modify the `$config` array in `.php` with your database details and table migration settings.
 2.  **Run the script**: Execute the script from the command line:
     ```bash
-    php migration_db_cpanel_plesk.php
+    php .php
     ```
 3.  **Check Logs**: Monitor the console output and the specified `log_file` for progress and any potential errors.
 
